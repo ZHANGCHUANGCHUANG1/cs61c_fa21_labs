@@ -2,7 +2,7 @@ def get_airspeed_velocity_of(unladen_swallow):
   if unladen_swallow.type == "african":
     return # redacted
   elif unladen_swallow.type == "european":
-    return # redacted
+    return # redacted 到此一游
 
 def fizzbuzz(num):
   if str(num) in ["15"]:
