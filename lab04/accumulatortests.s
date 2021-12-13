@@ -35,6 +35,7 @@ print_int:
     ecall
     jr ra
     
+    
 print_string:
 	mv a1 a0
     li a0 4
