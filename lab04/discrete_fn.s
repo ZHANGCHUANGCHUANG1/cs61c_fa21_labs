@@ -77,7 +77,10 @@ main:
 # Think: why might having a1 be useful?
 f:
     # YOUR CODE GOES HERE!
-
+    la t0, output
+    slli a0, a0, 2      #Int size is 4 Byte
+    add t0, t0, a0     
+    lw  a0, 12(t0)      #Lookup the output value
     jr ra               # Always remember to jr ra after your function!
 
 print_int:
